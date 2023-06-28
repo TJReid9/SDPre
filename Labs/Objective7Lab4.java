@@ -1,10 +1,10 @@
 public class Objective7Lab4 {
 	public static void main(String[] args) {
-		int count = 20, i = 1, sum = 0;
+		int count = 0, sum = 0;
 
-		while (i <= count) {
-			sum = sum + i;
-			i++;
+		while (count <= 20) {
+			sum += count;
+			count++;
 		}
 
 		System.out.println(sum);
