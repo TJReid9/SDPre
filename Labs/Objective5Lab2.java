@@ -4,14 +4,14 @@ public class Objective5Lab2 {
 		String string2 = "Bacon";
 		String string3 = "Banana";
 
-		if(string1.equals(string2)) {
+		if (string1 == string2) {
 			System.out.println(string1 + " is equivalent to " + string2);
 		}
 		else {
 			System.out.println(string1 + " is not equivalent to " + string2);
 		}
 
-		if(string1.equals(string3)) {
+		if (string1 == string3) {
 			System.out.println(string1 + " is equivalent to " + string3);
 		}
 		else {
