@@ -3,7 +3,7 @@ import java.time.Year;
 
 public class Objective4Lab3 {
 	public static void main(String[] args) {
-		int birthYear, age;
+		int birthYear, age, currentYear;
 
 		birthYear = 0;
 
@@ -13,9 +13,8 @@ public class Objective4Lab3 {
 			age = keyboard.nextInt();
 			keyboard.close();
 
-		int currentYear = Year.now() .getValue();
-
-		birthYear = currentYear - age;
+		currentYear = 2023;
+		birthYear = (currentYear - age);
 		
 
 
